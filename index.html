@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Traffic Control System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🚦 Smart Traffic Control Dashboard</h1>
+  
+  <div class="intersection">
+    <div class="sensor-data">
+      <h3>Intersection A</h3>
+      <p>Vehicles Detected: <span id="sensorA">0</span></p>
+    </div>
+    <div class="traffic-light" id="lightA"></div>
+  </div>
+
+  <div class="intersection">
+    <div class="sensor-data">
+      <h3>Intersection B</h3>
+      <p>Vehicles Detected: <span id="sensorB">0</span></p>
+    </div>
+    <div class="traffic-light" id="lightB"></div>
+  </div>
+
+  <div class="controls">
+    <button id="start">Start Simulation</button>
+    <button id="stop">Stop Simulation</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
